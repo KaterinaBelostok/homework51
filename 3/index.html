@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+          
+    <h2>Пошук</h2>
+    <form action="" method="post">
+        
+        <fieldset>
+            <img class="carimg" src="../img/images.jpg" alt="car">
+            <label for="body type"><h3>Тип кузова</h3></label>
+            <input type="text" id="body type" required><br>
+            <label for="car brand"><h3>Марка авто</h3></label>
+            <input type="text" id="car brand" required><br>
+            <label for="producing country"><h3>Країна виробник</h3></label>
+            <input type="text" id="producing country"><br>
+            <label for="price"><h3>Ціна</h3></label>
+            <input autocomplete="off" type="tel" inputmode="numeric" value="" placeholder="Від:">
+            <input autocomplete="off" type="tel" inputmode="numeric"  placeholder="до:" aria-invalid="false" font-size="16px" value="">
+            <br>
+            <label for="graduation year"><h3>Рік випуску</h3></label>
+            <input autocomplete="off" type="tel" inputmode="numeric" pattern="\d*" data-testid="range-from-input" placeholder="Від:" color="#002F34" aria-invalid="false" font-size="16px" aria-labelledby="range-from-input-label" value="">
+            <input autocomplete="off" type="tel" inputmode="numeric" placeholder="до:" color="#002F34" aria-invalid="false" font-size="16px" value="">
+             <br>
+             <label for="State"><h3>Стан</h3></label>
+            <select name="State" id="State">
+                <option value="">На ходу</option>
+                <option value="">Перший власник</option>
+                <option value="">Гаражне зберігання</option>
+                <option value="">Потребує ремонту ходової</option>
+                <option value="">Потребує ремонту двигуна</option>    
+            </select> 
+            <br>
+            <label for="color"><h3>Колір</h3></label>
+            <input type="color" id="color">
+            <br>
+            <p><h3>Паливо</h3></p>
+            <label for="fuel11">
+            <input type="radio" name="fuel11" id="fuel11">Бензин</label><br>
+            <label for="fuel12">
+            <input type="radio" name="fuel12" id="fuel12">Дизель</label><br>
+            <label for="fuel13">
+            <input type="radio" name="fuel13" id="fuel13">Газ</label><br>
+            <label for="fuel14">
+            <input type="radio" name="fuel14" id="fuel14">Електро</label><br>
+            
+            <label for="Type of gearbox"><h3>Тип коробки передач</h3></label>
+            <select name="gearbox" id="gearbox">
+                <option value="">Механічна</option>
+                <option value="">Автомат</option>
+                <option value="">Варіатор</option>
+                <option value="">Адаптивна</option>
+                <option value="">Типтронік</option>
+            </select>
+            
+            <p ><h3>Комфорт</h3></p>
+            <label for="comf1"><input type="radio" name="comf1" id="comf1">Електропакет</label><br>
+            <label for="comf2"><input type="radio" name="comf2" id="comf2">Кондиціонер</label><br>
+            <label for="comf3"><input type="radio" name="comf3" id="comf3" >Датчик світла</label><br>
+            <label for="comf4"><input type="radio" name="comf4" id="comf4">Клімат контроль</label><br>
+            <label for="comf5"><input type="radio" name="comf5" id="comf5">Шкіряний салон</label><br>
+            <label for="comf6"><input type="radio" name="comf6" id="comf6">Підігрів руля</label><br>
+            <br>
+            <button id="button" type="submit" name="find"> Пошук </button>
+            
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
